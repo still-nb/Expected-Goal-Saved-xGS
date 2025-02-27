@@ -82,7 +82,7 @@ visualize_goalkeeper_stats(df, df_goalkeepers, match_selected): Confronta xG sub
 
 visualize_goalkeeper_xgs(df, df_goalkeepers, match_selected): Mostra un'analisi comparativa degli xGS tra portieri.
 
-visualize_goalkeeper_time_series(df, df_goalkeepers, match_selected): Mostra l'andamento temporale degli xGS.
+visualize_goalkeeper_time_series(df, df_goalkeepers, match_selected): Mostra l'andamento temporale degli xG.
 
 visualize_goalkeeper_xgs_over_time(df, df_goalkeepers, match_selected): Analizza l'evoluzione degli xGS nel tempo.
 
@@ -94,15 +94,17 @@ comparative_goalkeeper_xgs_over_time(df_shots, df_goalkeepers, match1, match2): 
 
 _8. Funzione Principale_
 
-main(): Coordina il flusso di lavoro dallo scaricamento del dataset all'analisi finale.
+main(): Coordina il flusso di lavoro dal download del dataset all'analisi finale.
 
 **Output e Visualizzazioni**
 
 Dopo l'esecuzione dello script, verranno generati:
 
+- Grafici per visualizzare le posizioni dei tiri
 - Grafici di confronto tra xG concessi e gol subiti.
-- Scatter plot con riferimento alla linea y = x per valutare il rendimento del portiere.
+- Scatter plot per valutare il rendimento del portiere.
 - Analisi temporale dell'andamento degli xGS.
+- Grafici di confronto su più partite
 
 **Contributi**
 
@@ -110,6 +112,6 @@ Se vuoi contribuire al miglioramento dello script, sentiti libero di fare un for
 
 **Autore**
 
-Progetto sviluppato nell'ambito della tesi di laurea magistrale "Machine Learning e Data Analytics nel Contesto Calcistico" presso l'Università IULM nel corso Intelligenza Artificiale per l'Impresa e la Società.
+Progetto sviluppato da Niccolò Beretta nell'ambito della tesi di laurea magistrale "Machine Learning e Data Analytics nel Contesto Calcistico" presso l'Università IULM nel corso Intelligenza Artificiale per l'Impresa e la Società.
 
 
