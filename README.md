@@ -110,6 +110,6 @@ Se vuoi contribuire al miglioramento dello script, sentiti libero di fare un for
 
 **Autore**
 
-Progetto sviluppato nell'ambito della tesi di laurea magistrale: Machine Learning e Data Analytics nel Contesto Calcistico.
+Progetto sviluppato nell'ambito della tesi di laurea magistrale "Machine Learning e Data Analytics nel Contesto Calcistico" presso l'Università IULM nel corso Intelligenza Artificiale per l'Impresa e la Società.
 
 
