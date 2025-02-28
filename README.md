@@ -24,7 +24,8 @@ pip install pandas numpy scikit-learn matplotlib seaborn statsmodels imblearn
 
 **Dataset**
 
-Il dataset utilizzato proviene dal repository StatsBomb Open Data su GitHub. Può essere scaricato dal seguente link
+Il dataset utilizzato proviene dal repository StatsBomb Open Data su GitHub. ![SB - Icon Lockup - Colour positive](https://github.com/user-attachments/assets/f74d326a-9c60-4a9f-8ef8-814ef9c4ff16)
+Può essere scaricato dal seguente link
 
 --> StatsBomb Open Data: https://github.com/statsbomb/open-data
 
