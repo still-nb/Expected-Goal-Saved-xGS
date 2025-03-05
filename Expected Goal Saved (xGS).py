@@ -151,7 +151,7 @@ def train_model(df, model, col_name, match_selected=MATCH_SELEZIONATO):
     model.fit(X_train_bal, y_train_bal)
     df[col_name] = model.predict_proba(X)[:, 1]
     y_pred_proba = model.predict_proba(X_test)[:, 1]
-    best_threshold = 0.8
+    best_threshold = 0.76
     y_pred_class = (y_pred_proba >= best_threshold).astype(int)
     metrics = {
         'accuracy': accuracy_score(y_test, y_pred_class),
